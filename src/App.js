@@ -1,24 +1,16 @@
-import logo from './logo.svg';
+import imagen0 from './imagenes/gohan.jpg';
+import imagen1 from './imagenes/goku.jpg';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className = "caja"></div>
+      <button>Aceptar</button>
+      <img src = {imagen0} alt="Descripción del logo"  />
+      <input className='campo'/>
+    </>
   );
 }
 
